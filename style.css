@@ -75,7 +75,11 @@ body {
 .middle p {
     margin: 0;
     border-bottom: 1px solid rgb(207, 205, 205);
-    padding-bottom: 5px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.skills {
+    font-size: 12px;
 }
 span {
     color: rgb(156, 156, 156); 
@@ -87,5 +91,7 @@ span {
     letter-spacing: 10px;
     font-size: 30px;
     color: #3e6680;
-    border-bottom: 1px solid rgb(207, 205, 205);;
+}
+.social i {
+    cursor: pointer;
 }
