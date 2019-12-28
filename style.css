@@ -1,5 +1,5 @@
 html {
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(214,214,214,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(214,214,214,1)));
@@ -40,6 +40,8 @@ body {
 .image-text {
     margin-top: -110px;
     margin-left: 30px;
+    display: flex;
+    align-items: flex-start;
 }
 .image{
     width: 150px;
@@ -48,4 +50,42 @@ body {
     border: 5px solid #3e6680;
     border-radius: 50%;  
 }
-.upper-text {}
+.upper-text {
+    margin-left: 15px;
+}
+.upper-text h4 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.upper-text p {
+    color: rgb(207, 205, 205);
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.middle {
+    margin: 20px 30px
+}
+.middle h4 {
+    line-height: normal;
+    margin: 0;
+}
+.middle p {
+    margin: 0;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    padding-bottom: 5px;
+}
+span {
+    color: rgb(156, 156, 156); 
+}
+.social {
+    margin: 30px 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: #3e6680;
+    border-bottom: 1px solid rgb(207, 205, 205);;
+}
